@@ -11,4 +11,4 @@ RUN cd /build/sample_ws && go build
 
 EXPOSE 8080
 
-ENTRYPOINT [ "/build/sample_ws" ]
+# ENTRYPOINT [ "/build/sample_ws" ]
