@@ -7,6 +7,8 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o main main.go
 RUN cp main /go/bin/main
 
+EXPOSE 8080
+
 ############################
 # STEP 2 build a small image
 ############################
